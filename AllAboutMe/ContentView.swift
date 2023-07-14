@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showFact = false
-    private var funFacts = ["I love traveling!", "I love going to the beach!", "My favorite place to be in is probably Vietnam!"]
+    private var funFacts = ["I love to travel!", "I love going to the beach!", "My favorite place to be in is probably Vietnam!"]
     @State private var index = 0
     var body: some View {
         ZStack {
